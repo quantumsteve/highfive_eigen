@@ -42,3 +42,6 @@ target_link_libraries(read Eigen3::Eigen HighFive)
 add_executable(read_raw read_raw.cpp)
 target_link_libraries(read_raw Eigen3::Eigen HighFive)
 
+add_executable(read_row_major read_row_major.cpp)
+target_link_libraries(read_row_major Eigen3::Eigen HighFive)
+
